@@ -7,7 +7,7 @@ const pessoa = {
     sobrenome: 'Marcelo',
 
     exibirNome(): void {
-        console.log(this.nome + '' + this.sobrenome);
+        console.log(this.nome + ' ' + this.sobrenome);
     }
 };
 
