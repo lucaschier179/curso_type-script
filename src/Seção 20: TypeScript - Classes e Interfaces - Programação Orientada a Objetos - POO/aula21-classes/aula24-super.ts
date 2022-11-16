@@ -25,7 +25,7 @@ export class Aluno extends Pessoa {
         sobrenome: string,
         cpf: string,
         idade: number,
-        sala: string,
+        public sala: string,
     ) {
         super(nome, sobrenome, cpf, idade);
     }
