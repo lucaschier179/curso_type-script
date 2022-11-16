@@ -10,16 +10,12 @@ export class Empresa {
 
     adicionaColaborador(colaborador: Colaborador): void {
         this.colaboradores.push(colaborador);
-    }
-
+        }
+    
     mostrarColaboradores(): void {
         for (const colaborador of this.colaboradores) {
             console.log(colaborador);
         }
-    }
-    
-    getNome(): string {
-        return this.nome;
     }
 }
 
@@ -35,4 +31,4 @@ const colaborador1 = new Colaborador('Lucas', 'Marcelo');
 const colaborador2 = new Colaborador('Marcelo', 'Lopes');
 empresa1.adicionaColaborador(colaborador1);
 empresa1.adicionaColaborador(colaborador2);
-console.log(empresa1.getNome(), empresa1.nome);
+console.log(empresa1);
